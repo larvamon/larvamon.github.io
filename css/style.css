@@ -118,3 +118,7 @@ footer.page-footer {
 .movie-poster {
   width: 185px !important;
 }
+
+.background-poster {
+  background-size: contain;
+}
