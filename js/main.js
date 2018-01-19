@@ -5,7 +5,6 @@
 // HORROR - 27
 // CRIME - 80
 // HISTORY - 36
-const actionButton = document.getElementById(`action-button`);
 
 function addAction() {
   const rowAction = $('#row-movie');
@@ -18,8 +17,18 @@ function addAction() {
       return movies.map(function(movie) {
         var node = `
             <div class="col s12 m4">
-              <div class="icon-block">
+              <div class="icon-block center movie-row">
                 <img src="https://image.tmdb.org/t/p/w185_and_h278_bestv2/${movie.poster_path}" class="movie-poster">
+                <div class="center">
+                  <p class="font-title">${movie.title}</p>
+                </div>
+                <div class="center">
+                  <p class="font-title">
+                    Rating : ${movie.vote_average}
+                    <br>
+                    Release Date : ${movie.release_date}
+                  </p>
+                </div>
               </div>
             </div>
             `
@@ -30,5 +39,3 @@ function addAction() {
       console.log(JSON.stringify(error));
     });
 }
-
-actionButton.addEventListener(`click`, addAction);

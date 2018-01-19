@@ -118,3 +118,8 @@ footer.page-footer {
 .movie-poster {
   width: 185px !important;
 }
+
+.font-title {
+  font-size: 12px;
+  font-weight: 700;
+}
