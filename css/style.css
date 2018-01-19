@@ -119,6 +119,11 @@ footer.page-footer {
   width: 185px !important;
 }
 
-.background-poster {
-  background-size: contain;
+/* .background-poster {
+  background-size: center;
+} */
+
+.font-title {
+  font-size: 12px;
+  font-weight: 700;
 }
