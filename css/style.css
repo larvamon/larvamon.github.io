@@ -58,6 +58,11 @@ footer.page-footer {
   margin: 0;
 }
 
+.center {
+  font-family: Quicksand, cursive;
+  letter-spacing: 2px;
+}
+
 /* NOTE: cover image easeinout */
 
 .kenburns-top {
