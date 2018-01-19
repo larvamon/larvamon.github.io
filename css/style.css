@@ -105,3 +105,8 @@ footer.page-footer {
     transform-origin: top;
   }
 }
+
+.icon-block a:hover {
+  color: blue;
+  text-decoration: bold;
+}
