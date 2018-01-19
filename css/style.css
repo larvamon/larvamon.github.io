@@ -114,3 +114,7 @@ footer.page-footer {
   color: blue;
   text-decoration: bold;
 }
+
+.movie-poster {
+  width: 185px !important;
+}
